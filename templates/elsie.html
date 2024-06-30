@@ -1,0 +1,22 @@
+<html>
+        <head>
+            <title>Exo</title>
+        </head>
+        <body style="background-image: url('static/exo_wp.jpg');background-repeat: no-repeat; background-size: cover">
+            <header style="text-align: center;">
+                <h1>The Story of Exo</h1>
+                <h2>
+                    <p>The Exo Stranger</p>
+                    <a href="/download_exo"> Download Exo Stranger short story</a>
+                </h2>
+                <audio controls>
+                    <source src="{{ url_for('static', filename='exo.mp3') }}" type="audio/mpeg">
+                </audio>
+                <h3>
+                    <p>                                         
+                        <var> {{ book_html }} </var>   
+                    </p>
+                </h3>
+            </header>
+        </body>
+    </html>

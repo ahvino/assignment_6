@@ -1,0 +1,22 @@
+<html>
+        <head>
+            <title>Ikora</title>
+        </head>
+        <body style="background-image: url('static/ikora_wp.jpg');background-repeat: no-repeat; background-size: cover">
+            <header style="text-align: center;">
+                <h1>The Story of Ikora</h1>
+                <h2>
+                    <p>The Warlock Vanguard</p>
+                    <a href="/download_ikora"> Download Cayde6 short story</a>
+                </h2>
+                <audio controls>
+                    <source src="{{ url_for('static', filename='ikora.mp3') }}" type="audio/mpeg">
+                </audio>
+                <h3>
+                    <p>             
+                        <var> {{ book_html }} </var>   
+                    </p>
+                </h3>
+            </header>
+        </body>
+    </html>

@@ -1,0 +1,22 @@
+<html>
+        <head>
+            <title>Cayde6</title>
+        </head>
+        <body style="background-image: url('static/cayde6_wp.jpg');background-repeat: no-repeat; background-size: cover">
+            <header style="text-align: center;">
+                <h1>The Story of Cayde-6</h1>
+                <h2>
+                    <p>The Hunter Vanguard</p>
+                <a href="/download_cayde6"> Download Cayde6 short story</a>
+                </h2>
+                <audio controls>
+                    <source src="{{ url_for('static', filename='cayde6.mp3') }}" type="audio/mpeg">
+                </audio>
+                <h3>
+                    <p>             
+                        <var> {{ book_html }} </var>                                          
+                    </p>
+                </h3>
+            </header>
+        </body>
+    </html>

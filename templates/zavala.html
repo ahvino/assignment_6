@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Zavala</title>
+    </head>
+    <body style="background-image: url('static/zavala_wp.jpg');background-repeat: no-repeat; background-size: cover">
+        <header style="text-align: center;">
+            <h1>The Story of Zavala</h1>
+            <h2>
+                <p>The Titan Vanguard</p>
+                <a href="/download_zavala"> Download Zavala short story</a>
+            </h2>
+            <audio controls>
+                <source src="{{ url_for('static', filename='zavala.mp3') }}" type="audio/mpeg">
+            </audio>
+            <h3>
+                <p>
+                <var> {{ book_html }} </var>                                          
+                </p>
+            </h3>
+        </header>
+    </body>
+</html>
